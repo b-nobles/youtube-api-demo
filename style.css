@@ -1,0 +1,21 @@
+.video-box {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  inline-size: 480px;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
